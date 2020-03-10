@@ -1,5 +1,7 @@
 package com.zipcodewilmington.singlylinkedlist;
 
+import com.sun.tools.internal.xjc.model.CElement;
+
 /**
  * Created by leon on 1/10/18.
  */
@@ -14,8 +16,8 @@ public class SinglyLinkedList<T> {
     public SinglyLinkedList() {
     }
 
-    public void addNode(int data){
-        Node<T> newNode = new Node<T>(data);
+    public void addNode(T element){
+        Node<T> newNode = new Node<T>(element);
         if (head == null){
             head = newNode;
             tail = newNode;
@@ -26,14 +28,18 @@ public class SinglyLinkedList<T> {
         }
     }
 
-    public void removeMethod(){
+    public T removeMethod(int index){
+        for (int i = 0; i < index ; i++) {
+//            if (index !=)
+        }
+        return null;
     }
 
-    public boolean containsMethod(){
+    public boolean containsMethod(T object){
         return false;
     }
 
-    public void getMethod(){}
+    public T getMethod(int index){return null;}
 
     public Integer sizeMethod(){return null;}
 
