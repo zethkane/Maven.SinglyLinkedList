@@ -32,14 +32,30 @@ public class SinglyLinkedList<T> {
         }
     }
 
-    public T removeMethod(int index){
-        for (int i = 0; i < index ; i++) {
-//            if (index !=)
+    public void removeMethod(int index){
+        if (index == 0){
+            Node<T> newHead = head.getNext();
+            head.setNext(null);
+            head = newHead;
+            head.setIndex(0);
         }
-        return null;
+        if (index == )
+
     }
 
     public boolean containsMethod(T object){
+        Node<T> tempNode = head;
+        if (head == null){
+            return false;
+        } else {
+            for (int i = 0; i < this.sizeMethod() ; i++) {
+                if(tempNode.getData() == object){
+                    return true;
+                } else {
+                    tempNode = tempNode.getNext();
+                }
+            }
+        }
         return false;
     }
 
@@ -50,9 +66,10 @@ public class SinglyLinkedList<T> {
         return null;
     }
 
-    public Integer sizeMethod(){return null;}
+    public Integer sizeMethod(){return length;}
 
-    public void findMethod(){}
+    public void findMethod( T data){
+    }
 
     public void copyMethod(){}
 

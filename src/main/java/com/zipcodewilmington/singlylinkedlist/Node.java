@@ -30,6 +30,10 @@ public class Node<T> {
         return data;
     }
 
+    public void setData(T data) {
+        this.data = data;
+    }
+
     public String toString(){
         return data + "";
     }
