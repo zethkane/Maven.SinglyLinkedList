@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f0c6f35-1ac5-49ea-b41e-20445c07c5c6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" afterDir="false" />
@@ -210,7 +208,9 @@
       <option name="presentableId" value="Default" />
       <updated>1515621994762</updated>
       <workItem from="1583760074553" duration="196000" />
-      <workItem from="1583843565180" duration="6250000" />
+      <workItem from="1583843565180" duration="7028000" />
+      <workItem from="1584044515901" duration="666000" />
+      <workItem from="1584127898726" duration="375000" />
     </task>
     <servers />
   </component>
@@ -218,52 +218,59 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="438" y="-806" key="#com.intellij.ide.util.MemberChooser" timestamp="1583861803973">
-      <screen x="-337" y="-1057" width="1920" height="1057" />
+    <state x="411" y="-1081" key="#com.intellij.ide.util.MemberChooser" timestamp="1584128124086">
+      <screen x="-622" y="-1417" width="2560" height="1417" />
     </state>
     <state x="438" y="-806" key="#com.intellij.ide.util.MemberChooser/0.23.1280.727/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583861803973" />
     <state x="438" y="-806" key="#com.intellij.ide.util.MemberChooser/0.23.1280.728/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583846477503" />
-    <state width="1878" height="357" key="GridCell.Tab.0.bottom" timestamp="1583864266896">
+    <state x="411" y="-1081" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777/-622.-1417.2560.1417@-622.-1417.2560.1417" timestamp="1584128124086" />
+    <state width="1878" height="454" key="GridCell.Tab.0.bottom" timestamp="1584047132234">
       <screen x="-337" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="357" key="GridCell.Tab.0.bottom/0.23.1280.726/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583864266896" />
+    <state width="1878" height="357" key="GridCell.Tab.0.bottom/0.23.1280.726/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583865044469" />
     <state width="1238" height="290" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1583850181818" />
-    <state width="1878" height="357" key="GridCell.Tab.0.center" timestamp="1583864266894">
+    <state width="1878" height="454" key="GridCell.Tab.0.bottom/0.23.1280.728/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1584047132234" />
+    <state width="1878" height="454" key="GridCell.Tab.0.center" timestamp="1584047132233">
       <screen x="-337" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="357" key="GridCell.Tab.0.center/0.23.1280.726/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583864266894" />
+    <state width="1878" height="357" key="GridCell.Tab.0.center/0.23.1280.726/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583865044468" />
     <state width="1238" height="290" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1583850181817" />
-    <state width="1878" height="357" key="GridCell.Tab.0.left" timestamp="1583864266894">
+    <state width="1878" height="454" key="GridCell.Tab.0.center/0.23.1280.728/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1584047132233" />
+    <state width="1878" height="454" key="GridCell.Tab.0.left" timestamp="1584047132232">
       <screen x="-337" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="357" key="GridCell.Tab.0.left/0.23.1280.726/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583864266894" />
+    <state width="1878" height="357" key="GridCell.Tab.0.left/0.23.1280.726/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583865044467" />
     <state width="1238" height="290" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1583850181817" />
-    <state width="1878" height="357" key="GridCell.Tab.0.right" timestamp="1583864266895">
+    <state width="1878" height="454" key="GridCell.Tab.0.left/0.23.1280.728/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1584047132232" />
+    <state width="1878" height="454" key="GridCell.Tab.0.right" timestamp="1584047132233">
       <screen x="-337" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="357" key="GridCell.Tab.0.right/0.23.1280.726/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583864266895" />
+    <state width="1878" height="357" key="GridCell.Tab.0.right/0.23.1280.726/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583865044468" />
     <state width="1238" height="290" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1583850181818" />
-    <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1583864266898">
+    <state width="1878" height="454" key="GridCell.Tab.0.right/0.23.1280.728/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1584047132233" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1583865044471">
       <screen x="-337" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="357" key="GridCell.Tab.1.bottom/0.23.1280.726/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583864266898" />
-    <state width="1878" height="357" key="GridCell.Tab.1.center" timestamp="1583864266897">
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/0.23.1280.726/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583865044471" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center" timestamp="1583865044470">
       <screen x="-337" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="357" key="GridCell.Tab.1.center/0.23.1280.726/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583864266897" />
-    <state width="1878" height="357" key="GridCell.Tab.1.left" timestamp="1583864266896">
+    <state width="1878" height="357" key="GridCell.Tab.1.center/0.23.1280.726/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583865044470" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left" timestamp="1583865044470">
       <screen x="-337" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="357" key="GridCell.Tab.1.left/0.23.1280.726/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583864266896" />
-    <state width="1878" height="357" key="GridCell.Tab.1.right" timestamp="1583864266897">
+    <state width="1878" height="357" key="GridCell.Tab.1.left/0.23.1280.726/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583865044470" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right" timestamp="1583865044471">
       <screen x="-337" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="357" key="GridCell.Tab.1.right/0.23.1280.726/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583864266897" />
-    <state x="0" y="23" width="1280" height="726" key="dock-window-1" timestamp="1583863384099">
-      <screen x="0" y="23" width="1280" height="727" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right/0.23.1280.726/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583865044471" />
+    <state x="133" y="125" width="2560" height="777" key="dock-window-1" timestamp="1584127947807">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="0" y="23" width="1280" height="726" key="dock-window-1/0.23.1280.727/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583863384099" />
+    <state x="-337" y="-1057" width="1920" height="1056" key="dock-window-1/0.23.1280.728/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1584044756507" />
     <state x="0" y="23" width="1269" height="726" key="dock-window-1/0.23.1280.729/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1583846604778" />
+    <state x="133" y="125" width="2560" height="777" key="dock-window-1/0.23.1280.777/-622.-1417.2560.1417@-622.-1417.2560.1417" timestamp="1584127947807" />
     <state x="290" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1583844250673">
       <screen x="-337" y="-1057" width="1920" height="1057" />
     </state>
@@ -273,20 +280,20 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedListTest.java</url>
+          <line>13</line>
+          <properties class="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" method="addNodeTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java</url>
-          <line>17</line>
+          <line>18</line>
           <properties class="com.zipcodewilmington.singlylinkedlist.SinglyLinkedList" method="addNode">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedListTest.java</url>
-          <line>11</line>
-          <properties class="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" method="addNodeTest">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

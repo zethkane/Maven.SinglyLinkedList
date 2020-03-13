@@ -6,14 +6,18 @@ import com.sun.tools.internal.xjc.model.CElement;
  * Created by leon on 1/10/18.
  */
 public class SinglyLinkedList<T> {
-    private Node<T> head;
-    private Node<T> tail;
+    private Node head;
+    private Node tail;
+    private int length;
 
-    public SinglyLinkedList(Node<T> data) {
+    public SinglyLinkedList(Node data) {
         this.head = data;
     }
 
     public SinglyLinkedList() {
+        this.head = null;
+        this.tail = null;
+        this.length = 0;
     }
 
     public void addNode(T element){
@@ -39,7 +43,12 @@ public class SinglyLinkedList<T> {
         return false;
     }
 
-    public T getMethod(int index){return null;}
+    public T getMethod(int index){
+        //for (int i = 0; i <  ; i++) {
+
+        //}
+        return null;
+    }
 
     public Integer sizeMethod(){return null;}
 
