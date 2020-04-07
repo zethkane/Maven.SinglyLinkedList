@@ -8,7 +8,7 @@ import com.sun.tools.internal.xjc.model.CElement;
 public class SinglyLinkedList<T> {
     private Node head;
     private Node tail;
-    private int length;
+    private Integer length;
 
     public SinglyLinkedList(Node data) {
         this.head = data;
@@ -25,21 +25,28 @@ public class SinglyLinkedList<T> {
         if (head == null){
             head = newNode;
             tail = newNode;
+            newNode.setIndex(0);
         }
         else {
             tail.next = newNode;
             tail = newNode;
+            newNode.setIndex(sizeMethod());
         }
+        length++;
     }
 
     public void removeMethod(int index){
         if (index == 0){
-            Node<T> newHead = head.getNext();
+            Node newHead = head.getNext();
             head.setNext(null);
             head = newHead;
             head.setIndex(0);
         }
-        if (index == )
+        if (index != 0 ){
+            for (int i = index; i < sizeMethod() ; i++) {
+               // getMethod(i) = getMethod(i + 1);
+            }
+        }
 
     }
 
@@ -60,9 +67,19 @@ public class SinglyLinkedList<T> {
     }
 
     public T getMethod(int index){
-        //for (int i = 0; i <  ; i++) {
+        Node<T> tempNode = head;
+        if (head == null) {
+            return null;
+        } else {
+        for (int i = 0; i < this.sizeMethod() ; i++) {
+            if (tempNode.getIndex() == index){
+                return tempNode.getData();
+            } else {
+                tempNode = tempNode.getNext();
+            }
 
-        //}
+            }}
+
         return null;
     }
 
