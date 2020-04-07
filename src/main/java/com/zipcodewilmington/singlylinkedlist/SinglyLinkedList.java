@@ -85,7 +85,12 @@ public class SinglyLinkedList<T> {
 
     public Integer sizeMethod(){return length;}
 
-    public void findMethod( T data){
+    public int findMethod( T data){
+        for (int i = 0; i < sizeMethod(); i++) {
+            if (getMethod(i).equals(data)){
+                return i;
+            }
+        } return -1;
     }
 
     public void copyMethod(){}

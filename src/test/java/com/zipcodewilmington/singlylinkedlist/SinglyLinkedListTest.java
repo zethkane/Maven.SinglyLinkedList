@@ -55,4 +55,20 @@ public class SinglyLinkedListTest {
 
         Assert.assertEquals(data3, myList.getMethod(2));
     }
+
+    @Test
+    public void findTest(){
+        SinglyLinkedList myList = new SinglyLinkedList<Integer>();
+        int data = 4;
+        int data2 = 21;
+        int data3 = 43;
+
+        myList.addNode(data);
+        myList.addNode(data2);
+        myList.addNode(data3);
+
+        int expected = 1;
+
+        Assert.assertEquals(expected, myList.findMethod(data2));
+    }
 }
